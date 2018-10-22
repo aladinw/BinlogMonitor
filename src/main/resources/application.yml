@@ -1,0 +1,15 @@
+spring:
+    data:
+      mongodb:
+         uri : mongodb://xxx:xxx@192.168.1.73:40000/XXXX
+
+    datasource:
+          url : jdbc:mysql://127.0.0.1:3306/XXXX
+          username : XXXXX
+          password : XXXXX
+          driverClassName : com.mysql.jdbc.Driver
+
+custom:
+    host : 127.0.0.1
+server:
+    port : 7777

@@ -1,4 +1,4 @@
-package com.weiloong.myproject;
+package com.weiloong.main;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
