@@ -1,15 +1,22 @@
 spring:
     data:
       mongodb:
-         uri : mongodb://xxx:xxx@192.168.1.73:40000/XXXX
+         uri : mongodb://xxx:xxx@xxx:xxx/xxx
 
     datasource:
-          url : jdbc:mysql://127.0.0.1:3306/XXXX
-          username : XXXXX
-          password : XXXXX
+          url : jdbc:mysql://xxx:xxx/xxx
+          username : xxx
+          password : xxx
           driverClassName : com.mysql.jdbc.Driver
-
+    activemq:
+          broker-url: tcp://xxx:xxx
+          user : xxx
+          password : xxx
+          pool:
+              enabled: true
+              max-connections: 10
 custom:
-    host : 127.0.0.1
+    host : xxx
 server:
     port : 7777
+
